@@ -23,6 +23,13 @@ To simplify predictions where the N-gram which was input by the user is not foun
 
 ### Files
 
+Clean up provided query (the same way corpora has been cleaned up).
+Tokenize and compute number of words.
+Choose n (for n-gram) equals to number of words plus one word.
+Search for appropriate n-grams and order results from common (high frequency, or high probability) to rare.
+If nothing found (or less than some coefficient), remove first word from query, and go to the step 3.
+Last words of found n-grams represent the prediciton result.
+
 #### Language Model Algorithm
 xxx : code to generate ngrams
 *  generate samples of raw training data.
