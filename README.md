@@ -1,5 +1,12 @@
 *Predictive Keyboard App : A Capstone Project (for Data Science Specialization)*
 
+The pitching deck for project can be found at: 
+https://rpubs.com/nkl/WordPredictor
+
+The online app can be found at: 
+https://karennkl.shinyapps.io/wordpredictor/
+
+
 ### About 
 Inputs for this app's language model were 3 corpora of approximately 200 MB each from Twitter, news, and blogs. 
 (The data comes from HC Corpora.) 80% samples were used, with 20% reserved for testing. 
